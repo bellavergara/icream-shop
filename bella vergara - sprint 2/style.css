@@ -421,4 +421,11 @@ footer p {
     height: 50vh;
     width: 85vw;
   }
+  /* riffle*/
+  .contenedor-maps-formulario {
+    flex-direction: column;
+  }
+  #maps-contenedor iframe {
+    width: 90vw;
+  }
 }
