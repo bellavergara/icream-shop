@@ -247,8 +247,6 @@ td {
 }
 
 /* riffle*/
-.Reffle {
-}
 
 h3 {
   color: hwb(200 18% 7%);
@@ -418,8 +416,46 @@ footer p {
     flex-direction: column;
   }
   #contenedor-lista img {
-    height: 50vh;
+    height: 25vh;
     width: 85vw;
+  }
+
+  /* riffle*/
+  .contenedor-maps-formulario {
+    flex-direction: column;
+  }
+  #maps-contenedor iframe {
+    width: 90vw;
+  }
+  .formulario {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Este es Home*/
+  .helados {
+    height: 20%;
+    width: 75%;
+  }
+  #helado-esmeralda {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  /* este es aboutUs*/
+
+  .section-contenedor img {
+    width: 40%;
+  }
+  /* Este es contact*/
+
+  .imagen-helado img {
+    width: 90%;
+  }
+  /* seccion benefitstips*/
+  #contenedor-lista img {
+    height: 25vh;
+    width: 25vw;
   }
   /* riffle*/
   .contenedor-maps-formulario {
@@ -427,5 +463,8 @@ footer p {
   }
   #maps-contenedor iframe {
     width: 90vw;
+  }
+  .formulario {
+    padding: 0;
   }
 }
