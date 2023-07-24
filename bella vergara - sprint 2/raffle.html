@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="./IceCream1/icon.png">
+</head>
+<body>
+    <header>
+    <nav>
+        <div>
+        <a href="index.html">Home</a>
+        <a href="aboutUs.html"> About Us</a>
+        <a href="contac.html"> Contact</a>
+        <a href="information.html">Information</a>
+        <a href="benefitstips.html">Benefitstips</a>
+        <a href="raffle.html">Raffle</a>
+
+    </div>
+    <img id="logo" src= "./IceCream1/logo.png" alt="foto logo" width="100">
+    </nav>
+</header>
+    <main class="Reffle">
+        <h1 id="Reffle"> Raffle</h1>
+        <h3 id="subtitulo">you can collaborate so that we expand the business and by doing so you will be participating 
+            in the raffle for a box of tradicional Ice creams.
+        </h3>
+
+
+    <div class="contenedor-maps-formulario">
+        <div id="maps-contenedor">
+            <h4>Our location is located at:</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d422741.54498574306!2d-118.5353689079226!3d34.12924007651052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1689898718664!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    <div class="formulario"> 
+        <form action="./show_data.html" method="get"> 
+
+    <fieldset>
+        <label for="name"> First Name</label>
+        <input type="text" id="name" name="n-name">
+
+
+    
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last-name">
+
+
+    
+    
+        <label for="selected-platform"> Choose Meet or Zoom</label>
+            <select id="plataforma" name="selected-platform">
+                    <option>--select an option--</option>
+                    <option > Meet</option>
+                    <option> Zoom</option>
+            </select>
+    
+    
+        <label for="d-date">Choouse Date</label>
+        <input type="date" id="fecha" name="d-date" list="date">
+    <datalist id="date">
+        <option label="IceCream">2023-10-20</option>
+        <option label="IceCream-Cone">2023-10-27</option>
+        <option label="IceCream-Sauce">2023-11-21</option>
+     </datalist>
+
+
+        <p class="payment">Payment Option</p>
+     <div class="radios">
+        <input type="radio" id="Cash" name="payment-option" value="Cash">   
+        <label for="cash">Cash</label> 
+    </div>
+
+    <div class="radios">
+
+        <input type="radio" id="credito" name="payment-option" value="credit">
+        <label for="payment-option"> CreditCard</label>
+    </div>
+
+    <div class="radios">
+        <input type="radio" id="credito" name="payment-option" value="debit">
+        <label for="payment-option"> DebitCard</label>
+        
+    </div>
+
+        <label for="Message"> Message (Optional)</label>
+        <textarea name="Message" id="Message" cols="30" rows="10">
+        </textarea>
+
+       <div class="acuerdo">
+        <input type="checkbox">
+        <label for="">I acceppt terms and conditions...</label>
+    
+        <input type="submit"  value="send">
+    </div>
+    </fieldset>
+
+        </form>
+        </div>
+    </div>
+    </main>
+    <footer> 
+        <p>&copy;Bella Vergara</p> 
+    </footer>
+</body>
+</html>
